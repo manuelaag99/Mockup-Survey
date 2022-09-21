@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+    <h1 id="title">Register to Worldev!</h1>
+    <p id="description">The largest database of developers in the world.</p>
+    <form id="survey-form" action="">
+      <fieldset>
+        <label id="name-label"><p>Name</p>
+          <input class="id-data" id="name" type="text" placeholder="Write in your name..." required>
+        </label>
+        <label id="email-label"><p>E-mail</p>
+          <input class="id-data" id="email" type="email" placeholder="Write in your e-mail..." required>
+        </label>
+        <label id="number-label"><p>Age</p>
+          <input class="id-data" id="number" type="number" min="9" max="99" placeholder="Write just the number..." required>
+        </label>
+        <label for=""><p>What gender are you?</p>
+          <table>
+            <tr>
+              <td>
+                <label id="Man">
+                  <input type="radio" value="gender" name="whatgender">Man.
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label id="Woman">
+                  <input type="radio" value="gender" name="whatgender">Woman.
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label id="Other">
+                  <input type="radio" value="gender" name="whatgender">Other.
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label id="NotSay">
+                  <input type="radio" value="gender" name="whatgender">I'd rather not say.
+                </label>
+              </td>
+            </tr>
+          </table>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label><p>What's your educational level?</p>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">12th grade or less</option>
+            <option value="2">Graduated high school or equivalent</option>
+            <option value="3">Some college, no degree</option>
+            <option value="4">Associate degree</option>
+            <option value="5">Bachelor's degree</option>
+            <option value="6">Post-graduate's degree</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label><p>Select your programming experience</p>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">None</option>
+            <option value="2">Less than 6 months</option>
+            <option value="3">1 year</option>
+            <option value="4">More than 1 year but less than 2 years</option>
+            <option value="5">More than 2 years</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset><p>Are you currently looking for a job as a developer? (this status can be changed once you're registered)</p>
+        <table>
+          <tr>
+            <td>
+              <label id="Not-Looking">
+                <input type="radio" value="job-or-not" name="job-or-no">I'm not looking for a job.
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label id="Yes-Looking">
+                <input type="radio" value="job-or-not" name="job-or-no">I'm looking for a job.
+              </label>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <label><p>Choose which of the following programming languages you have experience with and/or knowledge of</p>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="ABAP" class="choose-languages"> ABAP
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Ada" class="choose-languages"> Ada
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> Apex
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Assembly Basic
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Bash
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> C
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="ABAP" class="choose-languages"> C#
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Ada" class="choose-languages"> C++
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> COBOL
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> CSS
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Dart
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> F#
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> Fortran
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Foxpro
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Go
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Groovy
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> Java
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Javascript
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Julia
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Kotlin
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Lisp
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> LOGGO
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Lua
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Matlab
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Object Pascal
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Objective-C
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Perl
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> PHP
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Prolog
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> Python
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> R
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> Ruby
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Rust
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> SAS
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Scala
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Apex" class="choose-languages"> Scheme
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Asembly-Basic" class="choose-languages"> Scratch
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="Bash" class="choose-languages"> SQL
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Swift
+          </label>
+          <label for="languages">
+            <input type="checkbox" name="languages" value="C" class="choose-languages"> Virtual Basic
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="previous-jobs"><p>Write down below your relevant job experience</p>
+          <textarea id="previous-jobs" rows="8" cols="40"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <label><input type="checkbox" name="terms-and-conditions" value="terms-and-conditions" class="inline" required> I accept the terms and conditions.</label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>

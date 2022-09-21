@@ -1,0 +1,98 @@
+body {
+  background-image: linear-gradient(70deg, rgba(0, 150, 200, 0.2), rgba(0, 110, 100, 0.6)), url("https://www.thesoftwarereport.com/wp-content/uploads/2020/06/Software-Developer-WFH.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 21px;
+  padding: 1%;
+}
+
+form {
+  background: #003F4D;
+  min-width: 200px;
+  max-width: 1000px;
+  margin: auto;
+  width: 800px;
+  box-shadow: 4px solid black;
+  padding: 20px;
+}
+
+p {
+  display: block;
+  padding: 0;
+}
+
+fieldset {
+  padding: 10px 40px;
+  border: 0;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#title {
+  padding-top: 2%;
+  font-size: 50px;
+}
+
+#description {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.id-data {
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  margin: 5px auto;
+  width: 100%;
+}
+
+.id-data[type="text"], .id-data[type="email"] {
+  cursor: text;
+}
+
+#dropdown {
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type=radio], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label[for="languages"] {
+  display: flex;
+}
+
+.submit[type="radio"] {
+  display: inline;
+}
+
+textarea {
+  display: block;
+  margin-top: 6px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  display: block;
+  font-weight: bold;
+  height: 50px;
+  margin: 20px auto;
+  width: 260px;
+  font-size: 25px;
+}
+
+input:hover {
+  background-color: #8f8f8f;
+  border-color: #8f8f8f;
+  cursor: pointer;
+}
